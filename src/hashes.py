@@ -35,6 +35,13 @@ print(now, '\033[0;32m [INFO] Hash SHA-1 del Texto \033[0;0m')
 time.sleep(1)
 print(sha1_txt.hexdigest())
 
+sha256_txt = hashlib.sha256(texto.encode())
+print(now, '\033[0;32m [INFO] Hash SHA-256 del Texto \033[0;0m')
+time.sleep(1)
+print(sha256_txt.hexdigest())
 
-
+sha512_txt = hashlib.sha512(texto.encode())
+print(now, '\033[0;32m [INFO] Hash SHA-512 del Texto \033[0;0m')
+time.sleep(1)
+print(sha256_txt.hexdigest())
 
