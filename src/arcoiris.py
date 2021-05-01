@@ -8,6 +8,9 @@ Fecha: 27 Abril 2020
 
 import hashlib
 from datetime import datetime
+import os
+
+os.system("cls")
 
 def arcoiris_md5():
     try:
